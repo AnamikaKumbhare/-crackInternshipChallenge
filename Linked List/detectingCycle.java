@@ -1,4 +1,4 @@
-
+import java.util.*;
 
 /**
  * Definition for singly-linked list.
@@ -11,7 +11,7 @@
  *     }
  * }
  */
-public class Solution {
+class Solution {
     public boolean hasCycle(ListNode head) {
         if (head == null || head.next == null) {
             return false; 
