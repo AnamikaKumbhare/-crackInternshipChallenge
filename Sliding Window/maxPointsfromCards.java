@@ -5,7 +5,7 @@ class Solution {
         for(int i=start;i<end;i++){
             sum+=cardPoints[i];
         }
-        //sliding the window
+        //sliding through the window
         int max=sum;
         for(int i=0;i<k;i++){
             sum=sum-cardPoints[k-i-1]+cardPoints[n-i-1];
