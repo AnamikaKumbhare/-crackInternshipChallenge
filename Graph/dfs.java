@@ -1,5 +1,5 @@
 package Graph;
-
+import java.util.ArrayList;
 class Solution {
     // Function to return a list containing the DFS traversal of the graph.
     public ArrayList<Integer> dfsOfGraph(ArrayList<ArrayList<Integer>> adj) {
