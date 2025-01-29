@@ -1,4 +1,5 @@
-class Solution {
+package Graph;
+class redundantConnection {
     private int[] parent;
     private int[] rank;
 
