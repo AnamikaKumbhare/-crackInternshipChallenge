@@ -1,3 +1,4 @@
+import java.util.*;
 class Solution {
     public long countOfSubstrings(String word, int k) {
         int[][] frequencies = new int[2][128];
